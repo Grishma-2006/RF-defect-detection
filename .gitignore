@@ -1,0 +1,24 @@
+
+# Python virtual environments
+backend/.venv/
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.cache
+
+# Next.js dependencies and build
+frontend/node_modules/
+frontend/.next/
+node_modules/
+.next/
+
+# YOLO training outputs
+runs/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
